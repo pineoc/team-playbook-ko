@@ -1,0 +1,2522 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://www.atlassian.com/ko/team-playbook/plays/daci -->
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="fb:pages" content="115407078489594">
+    <meta name="description" content="The DACI model gives each person involved in the decision a specific role, making you more efficient and effective. Here&amp;#039;s an example of how to use it.">
+    <meta name="author" content="Atlassian">
+    <meta name="robots" content="noindex,nofollow">
+    <style type="text/css" data-tippy-stylesheet="">
+        .tippy-iOS {
+            cursor: pointer !important;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        .tippy-popper {
+            transition-timing-function: cubic-bezier(.165, .84, .44, 1);
+            max-width: calc(100% - 8px);
+            pointer-events: none;
+            outline: 0
+        }
+
+        .tippy-popper[x-placement^=top] .tippy-backdrop {
+            border-radius: 40% 40% 0 0
+        }
+
+        .tippy-popper[x-placement^=top] .tippy-roundarrow {
+            bottom: -7px;
+            bottom: -6.5px;
+            -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+            margin: 0 3px
+        }
+
+        .tippy-popper[x-placement^=top] .tippy-roundarrow svg {
+            position: absolute;
+            left: 0;
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg)
+        }
+
+        .tippy-popper[x-placement^=top] .tippy-arrow {
+            border-top: 8px solid #333;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            bottom: -7px;
+            margin: 0 3px;
+            -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0
+        }
+
+        .tippy-popper[x-placement^=top] .tippy-backdrop {
+            -webkit-transform-origin: 0 25%;
+            transform-origin: 0 25%
+        }
+
+        .tippy-popper[x-placement^=top] .tippy-backdrop[data-state=visible] {
+            -webkit-transform: scale(1) translate(-50%, -55%);
+            transform: scale(1) translate(-50%, -55%)
+        }
+
+        .tippy-popper[x-placement^=top] .tippy-backdrop[data-state=hidden] {
+            -webkit-transform: scale(.2) translate(-50%, -45%);
+            transform: scale(.2) translate(-50%, -45%);
+            opacity: 0
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=visible] {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px)
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=perspective] {
+            -webkit-transform-origin: bottom;
+            transform-origin: bottom
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=perspective][data-state=visible] {
+            -webkit-transform: perspective(700px) translateY(-10px);
+            transform: perspective(700px) translateY(-10px)
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=perspective][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: perspective(700px) rotateX(60deg);
+            transform: perspective(700px) rotateX(60deg)
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=fade][data-state=visible] {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=fade][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=visible] {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=hidden] {
+            opacity: 0
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=scale] {
+            -webkit-transform-origin: bottom;
+            transform-origin: bottom
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=scale][data-state=visible] {
+            -webkit-transform: translateY(-10px);
+            transform: translateY(-10px)
+        }
+
+        .tippy-popper[x-placement^=top] [data-animation=scale][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(-10px) scale(.5);
+            transform: translateY(-10px) scale(.5)
+        }
+
+        .tippy-popper[x-placement^=bottom] .tippy-backdrop {
+            border-radius: 0 0 30% 30%
+        }
+
+        .tippy-popper[x-placement^=bottom] .tippy-roundarrow {
+            top: -7px;
+            -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+            margin: 0 3px
+        }
+
+        .tippy-popper[x-placement^=bottom] .tippy-roundarrow svg {
+            position: absolute;
+            left: 0
+        }
+
+        .tippy-popper[x-placement^=bottom] .tippy-arrow {
+            border-bottom: 8px solid #333;
+            border-right: 8px solid transparent;
+            border-left: 8px solid transparent;
+            top: -7px;
+            margin: 0 3px;
+            -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%
+        }
+
+        .tippy-popper[x-placement^=bottom] .tippy-backdrop {
+            -webkit-transform-origin: 0 -50%;
+            transform-origin: 0 -50%
+        }
+
+        .tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=visible] {
+            -webkit-transform: scale(1) translate(-50%, -45%);
+            transform: scale(1) translate(-50%, -45%)
+        }
+
+        .tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=hidden] {
+            -webkit-transform: scale(.2) translate(-50%);
+            transform: scale(.2) translate(-50%);
+            opacity: 0
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=visible] {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(20px);
+            transform: translateY(20px)
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=perspective] {
+            -webkit-transform-origin: top;
+            transform-origin: top
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=visible] {
+            -webkit-transform: perspective(700px) translateY(10px);
+            transform: perspective(700px) translateY(10px)
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: perspective(700px) rotateX(-60deg);
+            transform: perspective(700px) rotateX(-60deg)
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=visible] {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=visible] {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=hidden] {
+            opacity: 0
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=scale] {
+            -webkit-transform-origin: top;
+            transform-origin: top
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=visible] {
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px)
+        }
+
+        .tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateY(10px) scale(.5);
+            transform: translateY(10px) scale(.5)
+        }
+
+        .tippy-popper[x-placement^=left] .tippy-backdrop {
+            border-radius: 50% 0 0 50%
+        }
+
+        .tippy-popper[x-placement^=left] .tippy-roundarrow {
+            right: -12px;
+            -webkit-transform-origin: 33.33333333% 50%;
+            transform-origin: 33.33333333% 50%;
+            margin: 3px 0
+        }
+
+        .tippy-popper[x-placement^=left] .tippy-roundarrow svg {
+            position: absolute;
+            left: 0;
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg)
+        }
+
+        .tippy-popper[x-placement^=left] .tippy-arrow {
+            border-left: 8px solid #333;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            right: -7px;
+            margin: 3px 0;
+            -webkit-transform-origin: 0 50%;
+            transform-origin: 0 50%
+        }
+
+        .tippy-popper[x-placement^=left] .tippy-backdrop {
+            -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0
+        }
+
+        .tippy-popper[x-placement^=left] .tippy-backdrop[data-state=visible] {
+            -webkit-transform: scale(1) translate(-50%, -50%);
+            transform: scale(1) translate(-50%, -50%)
+        }
+
+        .tippy-popper[x-placement^=left] .tippy-backdrop[data-state=hidden] {
+            -webkit-transform: scale(.2) translate(-75%, -50%);
+            transform: scale(.2) translate(-75%, -50%);
+            opacity: 0
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=visible] {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(-20px);
+            transform: translateX(-20px)
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=perspective] {
+            -webkit-transform-origin: right;
+            transform-origin: right
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=perspective][data-state=visible] {
+            -webkit-transform: perspective(700px) translateX(-10px);
+            transform: perspective(700px) translateX(-10px)
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=perspective][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: perspective(700px) rotateY(-60deg);
+            transform: perspective(700px) rotateY(-60deg)
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=fade][data-state=visible] {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=fade][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=visible] {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=hidden] {
+            opacity: 0
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=scale] {
+            -webkit-transform-origin: right;
+            transform-origin: right
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=scale][data-state=visible] {
+            -webkit-transform: translateX(-10px);
+            transform: translateX(-10px)
+        }
+
+        .tippy-popper[x-placement^=left] [data-animation=scale][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(-10px) scale(.5);
+            transform: translateX(-10px) scale(.5)
+        }
+
+        .tippy-popper[x-placement^=right] .tippy-backdrop {
+            border-radius: 0 50% 50% 0
+        }
+
+        .tippy-popper[x-placement^=right] .tippy-roundarrow {
+            left: -12px;
+            -webkit-transform-origin: 66.66666666% 50%;
+            transform-origin: 66.66666666% 50%;
+            margin: 3px 0
+        }
+
+        .tippy-popper[x-placement^=right] .tippy-roundarrow svg {
+            position: absolute;
+            left: 0;
+            -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg)
+        }
+
+        .tippy-popper[x-placement^=right] .tippy-arrow {
+            border-right: 8px solid #333;
+            border-top: 8px solid transparent;
+            border-bottom: 8px solid transparent;
+            left: -7px;
+            margin: 3px 0;
+            -webkit-transform-origin: 100% 50%;
+            transform-origin: 100% 50%
+        }
+
+        .tippy-popper[x-placement^=right] .tippy-backdrop {
+            -webkit-transform-origin: -50% 0;
+            transform-origin: -50% 0
+        }
+
+        .tippy-popper[x-placement^=right] .tippy-backdrop[data-state=visible] {
+            -webkit-transform: scale(1) translate(-50%, -50%);
+            transform: scale(1) translate(-50%, -50%)
+        }
+
+        .tippy-popper[x-placement^=right] .tippy-backdrop[data-state=hidden] {
+            -webkit-transform: scale(.2) translate(-25%, -50%);
+            transform: scale(.2) translate(-25%, -50%);
+            opacity: 0
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=visible] {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(20px);
+            transform: translateX(20px)
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=perspective] {
+            -webkit-transform-origin: left;
+            transform-origin: left
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=perspective][data-state=visible] {
+            -webkit-transform: perspective(700px) translateX(10px);
+            transform: perspective(700px) translateX(10px)
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=perspective][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: perspective(700px) rotateY(60deg);
+            transform: perspective(700px) rotateY(60deg)
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=fade][data-state=visible] {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=fade][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=visible] {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=hidden] {
+            opacity: 0
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=scale] {
+            -webkit-transform-origin: left;
+            transform-origin: left
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=scale][data-state=visible] {
+            -webkit-transform: translateX(10px);
+            transform: translateX(10px)
+        }
+
+        .tippy-popper[x-placement^=right] [data-animation=scale][data-state=hidden] {
+            opacity: 0;
+            -webkit-transform: translateX(10px) scale(.5);
+            transform: translateX(10px) scale(.5)
+        }
+
+        .tippy-tooltip {
+            position: relative;
+            color: #fff;
+            border-radius: .25rem;
+            font-size: .875rem;
+            padding: .3125rem .5625rem;
+            line-height: 1.4;
+            text-align: center;
+            background-color: #333
+        }
+
+        .tippy-tooltip[data-size=small] {
+            padding: .1875rem .375rem;
+            font-size: .75rem
+        }
+
+        .tippy-tooltip[data-size=large] {
+            padding: .375rem .75rem;
+            font-size: 1rem
+        }
+
+        .tippy-tooltip[data-animatefill] {
+            overflow: hidden;
+            background-color: initial
+        }
+
+        .tippy-tooltip[data-interactive],
+        .tippy-tooltip[data-interactive] .tippy-roundarrow path {
+            pointer-events: auto
+        }
+
+        .tippy-tooltip[data-inertia][data-state=visible] {
+            transition-timing-function: cubic-bezier(.54, 1.5, .38, 1.11)
+        }
+
+        .tippy-tooltip[data-inertia][data-state=hidden] {
+            transition-timing-function: ease
+        }
+
+        .tippy-arrow,
+        .tippy-roundarrow {
+            position: absolute;
+            width: 0;
+            height: 0
+        }
+
+        .tippy-roundarrow {
+            width: 18px;
+            height: 7px;
+            fill: #333;
+            pointer-events: none
+        }
+
+        .tippy-backdrop {
+            position: absolute;
+            background-color: #333;
+            border-radius: 50%;
+            width: calc(110% + 2rem);
+            left: 50%;
+            top: 50%;
+            z-index: -1;
+            transition: all cubic-bezier(.46, .1, .52, .98);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden
+        }
+
+        .tippy-backdrop:after {
+            content: "";
+            float: left;
+            padding-top: 100%
+        }
+
+        .tippy-backdrop+.tippy-content {
+            transition-property: opacity;
+            will-change: opacity
+        }
+
+        .tippy-backdrop+.tippy-content[data-state=hidden] {
+            opacity: 0
+        }
+    </style>
+    <link rel="canonical" href="https://www.atlassian.com/ko/team-playbook/plays/daci">
+    <title>DACI: a decision-making framework | Atlassian Team Playbook</title>
+    <link rel="stylesheet" href="./DACI_team-playbook_files/wpl-main.min.css"
+        id="main-css">
+    <link rel="alternate" href="https://www.atlassian.com/team-playbook/plays/daci" hreflang="x-default">
+    <link rel="alternate" href="https://www.atlassian.com/team-playbook/plays/daci" hreflang="en">
+    <link rel="alternate" href="https://www.atlassian.com/ja/team-playbook/plays/daci" hreflang="ja">
+    <link rel="alternate" href="https://www.atlassian.com/fr/team-playbook/plays/daci" hreflang="fr">
+    <link rel="alternate" href="https://www.atlassian.com/de/team-playbook/plays/daci" hreflang="de">
+    <link rel="alternate" href="https://www.atlassian.com/es/team-playbook/plays/daci" hreflang="es">
+    <link rel="alternate" href="https://www.atlassian.com/br/team-playbook/plays/daci" hreflang="pt-BR">
+    <link rel="alternate" href="https://www.atlassian.com/zh/team-playbook/plays/daci" hreflang="zh-Hans">
+    <link rel="alternate" href="https://www.atlassian.com/ko/team-playbook/plays/daci" hreflang="ko">
+    <link rel="alternate" href="https://www.atlassian.com/ru/team-playbook/plays/daci" hreflang="ru">
+    <link rel="alternate" href="https://www.atlassian.com/pl/team-playbook/plays/daci" hreflang="pl">
+    <link rel="alternate" href="https://www.atlassian.com/it/team-playbook/plays/daci" hreflang="it">
+    <link rel="alternate" href="https://www.atlassian.com/nl/team-playbook/plays/daci" hreflang="nl">
+    <link rel="alternate" href="https://www.atlassian.com/fi/team-playbook/plays/daci" hreflang="fi">
+    <link rel="alternate" href="https://www.atlassian.com/hu/team-playbook/plays/daci" hreflang="hu">
+    <link rel="alternate" href="https://www.atlassian.com/ro/team-playbook/plays/daci" hreflang="ro">
+    <link rel="alternate" href="https://www.atlassian.com/cs/team-playbook/plays/daci" hreflang="cs">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/favicon.png" sizes="32x32">
+    <link rel="mask-icon" href="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/safari-pinned-tab.svg" color="#59afe1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://wac-cdn.atlassian.com/assets/img/favicons/atlassian/mstile-144x144.png">
+    <meta name="theme-color" content="#205081">
+    <meta property="og:title" content="DACI: a decision-making framework | Atlassian Team Playbook">
+    <meta property="og:description" content="The DACI model gives each person involved in the decision a specific role, making you more efficient and effective. Here&amp;#039;s an example of how to use it.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.atlassian.com/ko/team-playbook/plays/daci">
+    <meta property="og:image" content="https://wac-cdn.atlassian.com/dam/jcr:d88c7ba7-793a-42e9-9fe7-1b96dbe9acb8/Team-Playbook-Facebook-1200x630.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Atlassian">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="https://wac-cdn.atlassian.com/dam/jcr:1f89e02a-7fd4-4ac7-9f35-3eec312dd336/Team-Playbook-Twitter-440x220%20.png">
+    <meta name="twitter:site" content="@Atlassian">
+    <style>
+        /*we are adding this so to prevent content re-flow of the lazy loaded images*/
+
+        img:not([src]) {
+            opacity: 0;
+        }
+    </style>
+    <script type="text/javascript" async="" src="./DACI_team-playbook_files/munchkin.js"></script>
+    <script id="pdst-capture" async="" src="./DACI_team-playbook_files/ping.min.js"></script>
+    <script src="./DACI_team-playbook_files/221213238088884" async=""></script>
+    <script async="" src="./DACI_team-playbook_files/fbevents.js"></script>
+    <script type="text/javascript" async="" src="./DACI_team-playbook_files/ei.js"></script>
+    <script async="" id="demandbase_js_lib" src="./DACI_team-playbook_files/BwkB5d1U.min.js"></script>
+    <script type="text/javascript" async="" src="./DACI_team-playbook_files/bat.js"></script>
+    <script type="text/javascript" async="" src="./DACI_team-playbook_files/insight.min.js"></script>
+    <script type="text/javascript" async="" src="./DACI_team-playbook_files/linkid.js"></script>
+    <script type="text/javascript" src="./DACI_team-playbook_files/4558326637"></script>
+    <script type="text/javascript" async="" src="./DACI_team-playbook_files/gtm.js"></script>
+    <script type="text/javascript" async="" src="./DACI_team-playbook_files/analytics.js"></script>
+    <script src="./DACI_team-playbook_files/nr-spa-1130.min.js"></script>
+    <script type="text/javascript" id="analytics-js" async="" src="./DACI_team-playbook_files/analytics.min.js"></script>
+    <script type="text/javascript" id="www-widgetapi-script" src="./DACI_team-playbook_files/www-widgetapi.js" async=""></script>
+    <script id="youtube-api" src="./DACI_team-playbook_files/iframe_api"></script>
+    <script src="./DACI_team-playbook_files/jquery.min.js"></script>
+    <style>
+        @media only screen and (min-width: 1024px) {
+            .team-playbook .overlay .close {
+                left: 100% !important;
+            }
+        }
+
+        .column__background.n20 {
+            border-radius: 15px;
+        }
+
+        .flex-container .column__background {
+            border-radius: 15px;
+        }
+
+        .component__link {
+            margin-bottom: auto;
+        }
+
+        #ptd {
+            max-width: 100%;
+            width: 800px;
+            margin: auto;
+            border-radius: 25px;
+            border-left: 20px solid white;
+            border-right: 20px solid white;
+        }
+
+        .modal-link-trigger {
+            color: grey;
+        }
+
+        .n20 {
+            padding: 25px;
+        }
+
+        .difficulty-image .component__image {
+            margin-bottom: 12px;
+            padding-top: 8px;
+        }
+
+        .hr-heading {
+            padding-top: 25px;
+        }
+
+        .flex-container .column__background {
+            border-radius: 15px;
+        }
+
+        .imkt-feature-table-container .feature-container {
+            border-bottom: 0px;
+        }
+
+        .component__link {
+            margin-bottom: auto;
+        }
+
+        #people img.component__image {
+            padding-top: 20px;
+        }
+
+        #difficulty img.component__image {
+            padding-top: 25px;
+            margin-bottom: 23px;
+        }
+
+        .modal-link-trigger {
+            color: grey;
+        }
+
+        .n20 {
+            padding: 25px;
+        }
+
+        /* -------- style the drop down ---------- */
+
+        .imkt-feature-table-container .feature-name {
+            font-size: 1rem;
+        }
+
+        .imkt-feature-table-container .feature-aspects td:first-of-type {
+            display: none;
+        }
+
+        .imkt-feature-table-container .feature-name .toggle {
+            margin-left: 0px;
+        }
+
+        /* -------- end style ---------- */
+
+        /* -------- style the in-line modals ---------- */
+
+        .modal-link-trigger .component__link default {}
+
+        /* -------- style modals ---------- */
+
+        .modal.dialog .modal-header {
+            padding-bottom: 36px;
+            margin-bottom: -16px;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        .modal.dialog.h60 .modal-content {
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        /* ----- end style ------*/
+    </style>
+    <script type="text/javascript" src="./DACI_team-playbook_files/1096093.js"></script>
+    <script type="text/javascript">
+        var LOCALIZED_PRICING_CONTENTFUL_SPACE = "3s3v3nq72la0";
+        var LOCALIZED_PRICING_CONTENTFUL_ENVIRONMENT = "master";
+        var LOCALIZED_PRICING_CONTENTFUL_ACCESS_TOKEN =
+            "b9c3ea8d9c664146e9c7dd136a1d40ff8415715c3ef8ee222536f36fb2056613";
+        var LOCALIZED_PRICING_USE_GEO_CURRENCY = true;
+    </script>
+    <script type="text/javascript">
+        window.NREUM || (NREUM = {}), __nr_require = function (t, e, n) {
+            function r(n) {
+                if (!e[n]) {
+                    var o = e[n] = {
+                        exports: {}
+                    };
+                    t[n][0].call(o.exports, function (e) {
+                        var o = t[n][1][e];
+                        return r(o || e)
+                    }, o, o.exports)
+                }
+                return e[n].exports
+            }
+            if ("function" == typeof __nr_require) return __nr_require;
+            for (var o = 0; o < n.length; o++) r(n[o]);
+            return r
+        }({
+            1: [function (t, e, n) {
+                function r(t) {
+                    try {
+                        s.console && console.log(t)
+                    } catch (e) {}
+                }
+                var o, i = t("ee"),
+                    a = t(23),
+                    s = {};
+                try {
+                    o = localStorage.getItem("__nr_flags").split(","), console && "function" == typeof console
+                        .log && (s.console = !0, o.indexOf("dev") !== -1 && (s.dev = !0), o.indexOf(
+                            "nr_dev") !== -1 && (s.nrDev = !0))
+                } catch (c) {}
+                s.nrDev && i.on("internal-error", function (t) {
+                    r(t.stack)
+                }), s.dev && i.on("fn-err", function (t, e, n) {
+                    r(n.stack)
+                }), s.dev && (r("NR AGENT IN DEVELOPMENT MODE"), r("flags: " + a(s, function (t, e) {
+                    return t
+                }).join(", ")))
+            }, {}],
+            2: [function (t, e, n) {
+                function r(t, e, n, r, s) {
+                    try {
+                        l ? l -= 1 : o(s || new UncaughtException(t, e, n), !0)
+                    } catch (f) {
+                        try {
+                            i("ierr", [f, c.now(), !0])
+                        } catch (d) {}
+                    }
+                    return "function" == typeof u && u.apply(this, a(arguments))
+                }
+
+                function UncaughtException(t, e, n) {
+                    this.message = t || "Uncaught error with no additional information", this.sourceURL =
+                        e, this.line = n
+                }
+
+                function o(t, e) {
+                    var n = e ? null : c.now();
+                    i("err", [t, n])
+                }
+                var i = t("handle"),
+                    a = t(24),
+                    s = t("ee"),
+                    c = t("loader"),
+                    f = t("gos"),
+                    u = window.onerror,
+                    d = !1,
+                    p = "nr@seenError",
+                    l = 0;
+                c.features.err = !0, t(1), window.onerror = r;
+                try {
+                    throw new Error
+                } catch (h) {
+                    "stack" in h && (t(13), t(12), "addEventListener" in window && t(6), c.xhrWrappable &&
+                        t(14), d = !0)
+                }
+                s.on("fn-start", function (t, e, n) {
+                    d && (l += 1)
+                }), s.on("fn-err", function (t, e, n) {
+                    d && !n[p] && (f(n, p, function () {
+                        return !0
+                    }), this.thrown = !0, o(n))
+                }), s.on("fn-end", function () {
+                    d && !this.thrown && l > 0 && (l -= 1)
+                }), s.on("internal-error", function (t) {
+                    i("ierr", [t, c.now(), !0])
+                })
+            }, {}],
+            3: [function (t, e, n) {
+                t("loader").features.ins = !0
+            }, {}],
+            4: [function (t, e, n) {
+                function r() {
+                    j++, L = y.hash, this[u] = x.now()
+                }
+
+                function o() {
+                    j--, y.hash !== L && i(0, !0);
+                    var t = x.now();
+                    this[h] = ~~this[h] + t - this[u], this[d] = t
+                }
+
+                function i(t, e) {
+                    E.emit("newURL", ["" + y, e])
+                }
+
+                function a(t, e) {
+                    t.on(e, function () {
+                        this[e] = x.now()
+                    })
+                }
+                var s = "-start",
+                    c = "-end",
+                    f = "-body",
+                    u = "fn" + s,
+                    d = "fn" + c,
+                    p = "cb" + s,
+                    l = "cb" + c,
+                    h = "jsTime",
+                    m = "fetch",
+                    v = "addEventListener",
+                    w = window,
+                    y = w.location,
+                    x = t("loader");
+                if (w[v] && x.xhrWrappable) {
+                    var g = t(10),
+                        b = t(11),
+                        E = t(8),
+                        R = t(6),
+                        O = t(13),
+                        C = t(7),
+                        P = t(14),
+                        T = t(9),
+                        N = t("ee"),
+                        S = N.get("tracer");
+                    t(16), x.features.spa = !0;
+                    var L, j = 0;
+                    N.on(u, r), N.on(p, r), N.on(d, o), N.on(l, o), N.buffer([u, d, "xhr-done",
+                            "xhr-resolved"
+                        ]), R.buffer([u]), O.buffer(["setTimeout" + c, "clearTimeout" + s, u]), P.buffer(
+                            [u, "new-xhr", "send-xhr" + s]), C.buffer([m + s, m + "-done", m + f + s, m +
+                            f + c
+                        ]), E.buffer(["newURL"]), g.buffer([u]), b.buffer(["propagate", p, l,
+                            "executor-err", "resolve" + s
+                        ]), S.buffer([u, "no-" + u]), T.buffer(["new-jsonp", "cb-start", "jsonp-error",
+                            "jsonp-end"
+                        ]), a(P, "send-xhr" + s), a(N, "xhr-resolved"), a(N, "xhr-done"), a(C, m + s),
+                        a(C, m + "-done"), a(T, "new-jsonp"), a(T, "jsonp-end"), a(T, "cb-start"), E.on(
+                            "pushState-end", i), E.on("replaceState-end", i), w[v]("hashchange", i, !0),
+                        w[v]("load", i, !0), w[v]("popstate", function () {
+                            i(0, j > 1)
+                        }, !0)
+                }
+            }, {}],
+            5: [function (t, e, n) {
+                function r(t) {}
+                if (window.performance && window.performance.timing && window.performance.getEntriesByType) {
+                    var o = t("ee"),
+                        i = t("handle"),
+                        a = t(13),
+                        s = t(12),
+                        c = "learResourceTimings",
+                        f = "addEventListener",
+                        u = "resourcetimingbufferfull",
+                        d = "bstResource",
+                        p = "resource",
+                        l = "-start",
+                        h = "-end",
+                        m = "fn" + l,
+                        v = "fn" + h,
+                        w = "bstTimer",
+                        y = "pushState",
+                        x = t("loader");
+                    x.features.stn = !0, t(8);
+                    var g = NREUM.o.EV;
+                    o.on(m, function (t, e) {
+                        var n = t[0];
+                        n instanceof g && (this.bstStart = x.now())
+                    }), o.on(v, function (t, e) {
+                        var n = t[0];
+                        n instanceof g && i("bst", [n, e, this.bstStart, x.now()])
+                    }), a.on(m, function (t, e, n) {
+                        this.bstStart = x.now(), this.bstType = n
+                    }), a.on(v, function (t, e) {
+                        i(w, [e, this.bstStart, x.now(), this.bstType])
+                    }), s.on(m, function () {
+                        this.bstStart = x.now()
+                    }), s.on(v, function (t, e) {
+                        i(w, [e, this.bstStart, x.now(), "requestAnimationFrame"])
+                    }), o.on(y + l, function (t) {
+                        this.time = x.now(), this.startPath = location.pathname + location.hash
+                    }), o.on(y + h, function (t) {
+                        i("bstHist", [location.pathname + location.hash, this.startPath, this.time])
+                    }), f in window.performance && (window.performance["c" + c] ? window.performance[
+                        f](u, function (t) {
+                        i(d, [window.performance.getEntriesByType(p)]), window.performance[
+                            "c" + c]()
+                    }, !1) : window.performance[f]("webkit" + u, function (t) {
+                        i(d, [window.performance.getEntriesByType(p)]), window.performance[
+                            "webkitC" + c]()
+                    }, !1)), document[f]("scroll", r, {
+                        passive: !0
+                    }), document[f]("keypress", r, !1), document[f]("click", r, !1)
+                }
+            }, {}],
+            6: [function (t, e, n) {
+                function r(t) {
+                    for (var e = t; e && !e.hasOwnProperty(u);) e = Object.getPrototypeOf(e);
+                    e && o(e)
+                }
+
+                function o(t) {
+                    s.inPlace(t, [u, d], "-", i)
+                }
+
+                function i(t, e) {
+                    return t[1]
+                }
+                var a = t("ee").get("events"),
+                    s = t(26)(a, !0),
+                    c = t("gos"),
+                    f = XMLHttpRequest,
+                    u = "addEventListener",
+                    d = "removeEventListener";
+                e.exports = a, "getPrototypeOf" in Object ? (r(document), r(window), r(f.prototype)) :
+                    f.prototype.hasOwnProperty(u) && (o(window), o(f.prototype)), a.on(u + "-start",
+                        function (t, e) {
+                            var n = t[1],
+                                r = c(n, "nr@wrapped", function () {
+                                    function t() {
+                                        if ("function" == typeof n.handleEvent) return n.handleEvent
+                                            .apply(n, arguments)
+                                    }
+                                    var e = {
+                                        object: t,
+                                        "function": n
+                                    }[typeof n];
+                                    return e ? s(e, "fn-", null, e.name || "anonymous") : n
+                                });
+                            this.wrapped = t[1] = r
+                        }), a.on(d + "-start", function (t) {
+                        t[1] = this.wrapped || t[1]
+                    })
+            }, {}],
+            7: [function (t, e, n) {
+                function r(t, e, n) {
+                    var r = t[e];
+                    "function" == typeof r && (t[e] = function () {
+                        var t = r.apply(this, arguments);
+                        return o.emit(n + "start", arguments, t), t.then(function (e) {
+                            return o.emit(n + "end", [null, e], t), e
+                        }, function (e) {
+                            throw o.emit(n + "end", [e], t), e
+                        })
+                    })
+                }
+                var o = t("ee").get("fetch"),
+                    i = t(23);
+                e.exports = o;
+                var a = window,
+                    s = "fetch-",
+                    c = s + "body-",
+                    f = ["arrayBuffer", "blob", "json", "text", "formData"],
+                    u = a.Request,
+                    d = a.Response,
+                    p = a.fetch,
+                    l = "prototype";
+                u && d && p && (i(f, function (t, e) {
+                    r(u[l], e, c), r(d[l], e, c)
+                }), r(a, "fetch", s), o.on(s + "end", function (t, e) {
+                    var n = this;
+                    if (e) {
+                        var r = e.headers.get("content-length");
+                        null !== r && (n.rxSize = r), o.emit(s + "done", [null, e], n)
+                    } else o.emit(s + "done", [t], n)
+                }))
+            }, {}],
+            8: [function (t, e, n) {
+                var r = t("ee").get("history"),
+                    o = t(26)(r);
+                e.exports = r;
+                var i = window.history && window.history.constructor && window.history.constructor.prototype,
+                    a = window.history;
+                i && i.pushState && i.replaceState && (a = i), o.inPlace(a, ["pushState",
+                    "replaceState"
+                ], "-")
+            }, {}],
+            9: [function (t, e, n) {
+                function r(t) {
+                    function e() {
+                        c.emit("jsonp-end", [], p), t.removeEventListener("load", e, !1), t.removeEventListener(
+                            "error", n, !1)
+                    }
+
+                    function n() {
+                        c.emit("jsonp-error", [], p), c.emit("jsonp-end", [], p), t.removeEventListener(
+                            "load", e, !1), t.removeEventListener("error", n, !1)
+                    }
+                    var r = t && "string" == typeof t.nodeName && "script" === t.nodeName.toLowerCase();
+                    if (r) {
+                        var o = "function" == typeof t.addEventListener;
+                        if (o) {
+                            var a = i(t.src);
+                            if (a) {
+                                var u = s(a),
+                                    d = "function" == typeof u.parent[u.key];
+                                if (d) {
+                                    var p = {};
+                                    f.inPlace(u.parent, [u.key], "cb-", p), t.addEventListener("load",
+                                        e, !1), t.addEventListener("error", n, !1), c.emit(
+                                        "new-jsonp", [t.src], p)
+                                }
+                            }
+                        }
+                    }
+                }
+
+                function o() {
+                    return "addEventListener" in window
+                }
+
+                function i(t) {
+                    var e = t.match(u);
+                    return e ? e[1] : null
+                }
+
+                function a(t, e) {
+                    var n = t.match(p),
+                        r = n[1],
+                        o = n[3];
+                    return o ? a(o, e[r]) : e[r]
+                }
+
+                function s(t) {
+                    var e = t.match(d);
+                    return e && e.length >= 3 ? {
+                        key: e[2],
+                        parent: a(e[1], window)
+                    } : {
+                        key: t,
+                        parent: window
+                    }
+                }
+                var c = t("ee").get("jsonp"),
+                    f = t(26)(c);
+                if (e.exports = c, o()) {
+                    var u = /[?&](?:callback|cb)=([^&#]+)/,
+                        d = /(.*)\.([^.]+)/,
+                        p = /^(\w+)(\.|$)(.*)$/,
+                        l = ["appendChild", "insertBefore", "replaceChild"];
+                    Node && Node.prototype && Node.prototype.appendChild ? f.inPlace(Node.prototype, l,
+                        "dom-") : (f.inPlace(HTMLElement.prototype, l, "dom-"), f.inPlace(
+                        HTMLHeadElement.prototype, l, "dom-"), f.inPlace(HTMLBodyElement.prototype,
+                        l, "dom-")), c.on("dom-start", function (t) {
+                        r(t[0])
+                    })
+                }
+            }, {}],
+            10: [function (t, e, n) {
+                var r = t("ee").get("mutation"),
+                    o = t(26)(r),
+                    i = NREUM.o.MO;
+                e.exports = r, i && (window.MutationObserver = function (t) {
+                    return this instanceof i ? new i(o(t, "fn-")) : i.apply(this, arguments)
+                }, MutationObserver.prototype = i.prototype)
+            }, {}],
+            11: [function (t, e, n) {
+                function r(t) {
+                    var e = a.context(),
+                        n = s(t, "executor-", e),
+                        r = new f(n);
+                    return a.context(r).getCtx = function () {
+                        return e
+                    }, a.emit("new-promise", [r, e], e), r
+                }
+
+                function o(t, e) {
+                    return e
+                }
+                var i = t(26),
+                    a = t("ee").get("promise"),
+                    s = i(a),
+                    c = t(23),
+                    f = NREUM.o.PR;
+                e.exports = a, f && (window.Promise = r, ["all", "race"].forEach(function (t) {
+                    var e = f[t];
+                    f[t] = function (n) {
+                        function r(t) {
+                            return function () {
+                                a.emit("propagate", [null, !o], i), o = o || !t
+                            }
+                        }
+                        var o = !1;
+                        c(n, function (e, n) {
+                            Promise.resolve(n).then(r("all" === t), r(!1))
+                        });
+                        var i = e.apply(f, arguments),
+                            s = f.resolve(i);
+                        return s
+                    }
+                }), ["resolve", "reject"].forEach(function (t) {
+                    var e = f[t];
+                    f[t] = function (t) {
+                        var n = e.apply(f, arguments);
+                        return t !== n && a.emit("propagate", [t, !0], n), n
+                    }
+                }), f.prototype["catch"] = function (t) {
+                    return this.then(null, t)
+                }, f.prototype = Object.create(f.prototype, {
+                    constructor: {
+                        value: r
+                    }
+                }), c(Object.getOwnPropertyNames(f), function (t, e) {
+                    try {
+                        r[e] = f[e]
+                    } catch (n) {}
+                }), a.on("executor-start", function (t) {
+                    t[0] = s(t[0], "resolve-", this), t[1] = s(t[1], "resolve-", this)
+                }), a.on("executor-err", function (t, e, n) {
+                    t[1](n)
+                }), s.inPlace(f.prototype, ["then"], "then-", o), a.on("then-start", function (
+                    t, e) {
+                    this.promise = e, t[0] = s(t[0], "cb-", this), t[1] = s(t[1], "cb-",
+                        this)
+                }), a.on("then-end", function (t, e, n) {
+                    this.nextPromise = n;
+                    var r = this.promise;
+                    a.emit("propagate", [r, !0], n)
+                }), a.on("cb-end", function (t, e, n) {
+                    a.emit("propagate", [n, !0], this.nextPromise)
+                }), a.on("propagate", function (t, e, n) {
+                    this.getCtx && !e || (this.getCtx = function () {
+                        if (t instanceof Promise) var e = a.context(t);
+                        return e && e.getCtx ? e.getCtx() : this
+                    })
+                }), r.toString = function () {
+                    return "" + f
+                })
+            }, {}],
+            12: [function (t, e, n) {
+                var r = t("ee").get("raf"),
+                    o = t(26)(r),
+                    i = "equestAnimationFrame";
+                e.exports = r, o.inPlace(window, ["r" + i, "mozR" + i, "webkitR" + i, "msR" + i],
+                    "raf-"), r.on("raf-start", function (t) {
+                    t[0] = o(t[0], "fn-")
+                })
+            }, {}],
+            13: [function (t, e, n) {
+                function r(t, e, n) {
+                    t[0] = a(t[0], "fn-", null, n)
+                }
+
+                function o(t, e, n) {
+                    this.method = n, this.timerDuration = isNaN(t[1]) ? 0 : +t[1], t[0] = a(t[0], "fn-",
+                        this, n)
+                }
+                var i = t("ee").get("timer"),
+                    a = t(26)(i),
+                    s = "setTimeout",
+                    c = "setInterval",
+                    f = "clearTimeout",
+                    u = "-start",
+                    d = "-";
+                e.exports = i, a.inPlace(window, [s, "setImmediate"], s + d), a.inPlace(window, [c], c +
+                    d), a.inPlace(window, [f, "clearImmediate"], f + d), i.on(c + u, r), i.on(s + u,
+                    o)
+            }, {}],
+            14: [function (t, e, n) {
+                function r(t, e) {
+                    d.inPlace(e, ["onreadystatechange"], "fn-", s)
+                }
+
+                function o() {
+                    var t = this,
+                        e = u.context(t);
+                    t.readyState > 3 && !e.resolved && (e.resolved = !0, u.emit("xhr-resolved", [], t)),
+                        d.inPlace(t, y, "fn-", s)
+                }
+
+                function i(t) {
+                    x.push(t), h && (b ? b.then(a) : v ? v(a) : (E = -E, R.data = E))
+                }
+
+                function a() {
+                    for (var t = 0; t < x.length; t++) r([], x[t]);
+                    x.length && (x = [])
+                }
+
+                function s(t, e) {
+                    return e
+                }
+
+                function c(t, e) {
+                    for (var n in t) e[n] = t[n];
+                    return e
+                }
+                t(6);
+                var f = t("ee"),
+                    u = f.get("xhr"),
+                    d = t(26)(u),
+                    p = NREUM.o,
+                    l = p.XHR,
+                    h = p.MO,
+                    m = p.PR,
+                    v = p.SI,
+                    w = "readystatechange",
+                    y = ["onload", "onerror", "onabort", "onloadstart", "onloadend", "onprogress",
+                        "ontimeout"
+                    ],
+                    x = [];
+                e.exports = u;
+                var g = window.XMLHttpRequest = function (t) {
+                    var e = new l(t);
+                    try {
+                        u.emit("new-xhr", [e], e), e.addEventListener(w, o, !1)
+                    } catch (n) {
+                        try {
+                            u.emit("internal-error", [n])
+                        } catch (r) {}
+                    }
+                    return e
+                };
+                if (c(l, g), g.prototype = l.prototype, d.inPlace(g.prototype, ["open", "send"],
+                        "-xhr-", s), u.on("send-xhr-start", function (t, e) {
+                        r(t, e), i(e)
+                    }), u.on("open-xhr-start", r), h) {
+                    var b = m && m.resolve();
+                    if (!v && !m) {
+                        var E = 1,
+                            R = document.createTextNode(E);
+                        new h(a).observe(R, {
+                            characterData: !0
+                        })
+                    }
+                } else f.on("fn-end", function (t) {
+                    t[0] && t[0].type === w || a()
+                })
+            }, {}],
+            15: [function (t, e, n) {
+                function r() {
+                    var t = window.NREUM,
+                        e = t.info.accountID || null,
+                        n = t.info.agentID || null,
+                        r = t.info.trustKey || null,
+                        i = "btoa" in window && "function" == typeof window.btoa;
+                    if (!e || !n || !i) return null;
+                    var a = {
+                        v: [0, 1],
+                        d: {
+                            ty: "Browser",
+                            ac: e,
+                            ap: n,
+                            id: o.generateCatId(),
+                            tr: o.generateCatId(),
+                            ti: Date.now()
+                        }
+                    };
+                    return r && e !== r && (a.d.tk = r), btoa(JSON.stringify(a))
+                }
+                var o = t(21);
+                e.exports = {
+                    generateTraceHeader: r
+                }
+            }, {}],
+            16: [function (t, e, n) {
+                function r(t) {
+                    var e = this.params,
+                        n = this.metrics;
+                    if (!this.ended) {
+                        this.ended = !0;
+                        for (var r = 0; r < l; r++) t.removeEventListener(p[r], this.listener, !1);
+                        e.aborted || (n.duration = s.now() - this.startTime, this.loadCaptureCalled ||
+                            4 !== t.readyState ? null == e.status && (e.status = 0) : a(this, t), n
+                            .cbTime = this.cbTime, d.emit("xhr-done", [t], t), c("xhr", [e, n, this
+                                .startTime
+                            ]))
+                    }
+                }
+
+                function o(t, e) {
+                    var n = t.responseType;
+                    if ("json" === n && null !== e) return e;
+                    var r = "arraybuffer" === n || "blob" === n || "json" === n ? t.response : t.responseText;
+                    return v(r)
+                }
+
+                function i(t, e) {
+                    var n = f(e),
+                        r = t.params;
+                    r.host = n.hostname + ":" + n.port, r.pathname = n.pathname, t.sameOrigin = n.sameOrigin
+                }
+
+                function a(t, e) {
+                    t.params.status = e.status;
+                    var n = o(e, t.lastSize);
+                    if (n && (t.metrics.rxSize = n), t.sameOrigin) {
+                        var r = e.getResponseHeader("X-NewRelic-App-Data");
+                        r && (t.params.cat = r.split(", ").pop())
+                    }
+                    t.loadCaptureCalled = !0
+                }
+                var s = t("loader");
+                if (s.xhrWrappable) {
+                    var c = t("handle"),
+                        f = t(17),
+                        u = t(15).generateTraceHeader,
+                        d = t("ee"),
+                        p = ["load", "error", "abort", "timeout"],
+                        l = p.length,
+                        h = t("id"),
+                        m = t(20),
+                        v = t(19),
+                        w = window.XMLHttpRequest;
+                    s.features.xhr = !0, t(14), d.on("new-xhr", function (t) {
+                        var e = this;
+                        e.totalCbs = 0, e.called = 0, e.cbTime = 0, e.end = r, e.ended = !1, e.xhrGuids = {},
+                            e.lastSize = null, e.loadCaptureCalled = !1, t.addEventListener(
+                                "load",
+                                function (n) {
+                                    a(e, t)
+                                }, !1), m && (m > 34 || m < 10) || window.opera || t.addEventListener(
+                                "progress",
+                                function (t) {
+                                    e.lastSize = t.loaded
+                                }, !1)
+                    }), d.on("open-xhr-start", function (t) {
+                        this.params = {
+                            method: t[0]
+                        }, i(this, t[1]), this.metrics = {}
+                    }), d.on("open-xhr-end", function (t, e) {
+                        "loader_config" in NREUM && "xpid" in NREUM.loader_config && this.sameOrigin &&
+                            e.setRequestHeader("X-NewRelic-ID", NREUM.loader_config.xpid);
+                        var n = !1;
+                        if ("init" in NREUM && "distributed_tracing" in NREUM.init && (n = !!
+                                NREUM.init.distributed_tracing.enabled), n && this.sameOrigin) {
+                            var r = u();
+                            r && e.setRequestHeader("newrelic", r)
+                        }
+                    }), d.on("send-xhr-start", function (t, e) {
+                        var n = this.metrics,
+                            r = t[0],
+                            o = this;
+                        if (n && r) {
+                            var i = v(r);
+                            i && (n.txSize = i)
+                        }
+                        this.startTime = s.now(), this.listener = function (t) {
+                            try {
+                                "abort" !== t.type || o.loadCaptureCalled || (o.params.aborted = !
+                                        0), ("load" !== t.type || o.called === o.totalCbs &&
+                                        (o.onloadCalled || "function" != typeof e.onload)) &&
+                                    o.end(e)
+                            } catch (n) {
+                                try {
+                                    d.emit("internal-error", [n])
+                                } catch (r) {}
+                            }
+                        };
+                        for (var a = 0; a < l; a++) e.addEventListener(p[a], this.listener, !1)
+                    }), d.on("xhr-cb-time", function (t, e, n) {
+                        this.cbTime += t, e ? this.onloadCalled = !0 : this.called += 1, this.called !==
+                            this.totalCbs || !this.onloadCalled && "function" == typeof n.onload ||
+                            this.end(n)
+                    }), d.on("xhr-load-added", function (t, e) {
+                        var n = "" + h(t) + !!e;
+                        this.xhrGuids && !this.xhrGuids[n] && (this.xhrGuids[n] = !0, this.totalCbs +=
+                            1)
+                    }), d.on("xhr-load-removed", function (t, e) {
+                        var n = "" + h(t) + !!e;
+                        this.xhrGuids && this.xhrGuids[n] && (delete this.xhrGuids[n], this.totalCbs -=
+                            1)
+                    }), d.on("addEventListener-end", function (t, e) {
+                        e instanceof w && "load" === t[0] && d.emit("xhr-load-added", [t[1], t[
+                            2]], e)
+                    }), d.on("removeEventListener-end", function (t, e) {
+                        e instanceof w && "load" === t[0] && d.emit("xhr-load-removed", [t[1],
+                            t[2]
+                        ], e)
+                    }), d.on("fn-start", function (t, e, n) {
+                        e instanceof w && ("onload" === n && (this.onload = !0), ("load" === (t[
+                            0] && t[0].type) || this.onload) && (this.xhrCbStart = s.now()))
+                    }), d.on("fn-end", function (t, e) {
+                        this.xhrCbStart && d.emit("xhr-cb-time", [s.now() - this.xhrCbStart,
+                            this.onload, e
+                        ], e)
+                    })
+                }
+            }, {}],
+            17: [function (t, e, n) {
+                e.exports = function (t) {
+                    var e = document.createElement("a"),
+                        n = window.location,
+                        r = {};
+                    e.href = t, r.port = e.port;
+                    var o = e.href.split("://");
+                    !r.port && o[1] && (r.port = o[1].split("/")[0].split("@").pop().split(":")[1]),
+                        r.port && "0" !== r.port || (r.port = "https" === o[0] ? "443" : "80"), r.hostname =
+                        e.hostname || n.hostname, r.pathname = e.pathname, r.protocol = o[0], "/" !==
+                        r.pathname.charAt(0) && (r.pathname = "/" + r.pathname);
+                    var i = !e.protocol || ":" === e.protocol || e.protocol === n.protocol,
+                        a = e.hostname === document.domain && e.port === n.port;
+                    return r.sameOrigin = i && (!e.hostname || a), r
+                }
+            }, {}],
+            18: [function (t, e, n) {
+                function r() {}
+
+                function o(t, e, n) {
+                    return function () {
+                        return i(t, [f.now()].concat(s(arguments)), e ? null : this, n), e ? void 0 :
+                            this
+                    }
+                }
+                var i = t("handle"),
+                    a = t(23),
+                    s = t(24),
+                    c = t("ee").get("tracer"),
+                    f = t("loader"),
+                    u = NREUM;
+                "undefined" == typeof window.newrelic && (newrelic = u);
+                var d = ["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished",
+                        "addToTrace", "inlineHit", "addRelease"
+                    ],
+                    p = "api-",
+                    l = p + "ixn-";
+                a(d, function (t, e) {
+                    u[e] = o(p + e, !0, "api")
+                }), u.addPageAction = o(p + "addPageAction", !0), u.setCurrentRouteName = o(p +
+                    "routeName", !0), e.exports = newrelic, u.interaction = function () {
+                    return (new r).get()
+                };
+                var h = r.prototype = {
+                    createTracer: function (t, e) {
+                        var n = {},
+                            r = this,
+                            o = "function" == typeof e;
+                        return i(l + "tracer", [f.now(), t, n], r),
+                            function () {
+                                if (c.emit((o ? "" : "no-") + "fn-start", [f.now(), r, o], n),
+                                    o) try {
+                                    return e.apply(this, arguments)
+                                } catch (t) {
+                                    throw c.emit("fn-err", [arguments, this, t], n), t
+                                } finally {
+                                    c.emit("fn-end", [f.now()], n)
+                                }
+                            }
+                    }
+                };
+                a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),
+                    function (t, e) {
+                        h[e] = o(l + e)
+                    }), newrelic.noticeError = function (t, e) {
+                    "string" == typeof t && (t = new Error(t)), i("err", [t, f.now(), !1, e])
+                }
+            }, {}],
+            19: [function (t, e, n) {
+                e.exports = function (t) {
+                    if ("string" == typeof t && t.length) return t.length;
+                    if ("object" == typeof t) {
+                        if ("undefined" != typeof ArrayBuffer && t instanceof ArrayBuffer && t.byteLength)
+                            return t.byteLength;
+                        if ("undefined" != typeof Blob && t instanceof Blob && t.size) return t.size;
+                        if (!("undefined" != typeof FormData && t instanceof FormData)) try {
+                            return JSON.stringify(t).length
+                        } catch (e) {
+                            return
+                        }
+                    }
+                }
+            }, {}],
+            20: [function (t, e, n) {
+                var r = 0,
+                    o = navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);
+                o && (r = +o[1]), e.exports = r
+            }, {}],
+            21: [function (t, e, n) {
+                function r() {
+                    function t() {
+                        return e ? 15 & e[n++] : 16 * Math.random() | 0
+                    }
+                    var e = null,
+                        n = 0,
+                        r = window.crypto || window.msCrypto;
+                    r && r.getRandomValues && (e = r.getRandomValues(new Uint8Array(31)));
+                    for (var o, i = "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx", a = "", s = 0; s < i.length; s++)
+                        o = i[s], "x" === o ? a += t().toString(16) : "y" === o ? (o = 3 & t() | 8, a +=
+                            o.toString(16)) : a += o;
+                    return a
+                }
+
+                function o() {
+                    function t() {
+                        return e ? 15 & e[n++] : 16 * Math.random() | 0
+                    }
+                    var e = null,
+                        n = 0,
+                        r = window.crypto || window.msCrypto;
+                    r && r.getRandomValues && Uint8Array && (e = r.getRandomValues(new Uint8Array(31)));
+                    for (var o = [], i = 0; i < 16; i++) o.push(t().toString(16));
+                    return o.join("")
+                }
+                e.exports = {
+                    generateUuid: r,
+                    generateCatId: o
+                }
+            }, {}],
+            22: [function (t, e, n) {
+                function r(t, e) {
+                    if (!o) return !1;
+                    if (t !== o) return !1;
+                    if (!e) return !0;
+                    if (!i) return !1;
+                    for (var n = i.split("."), r = e.split("."), a = 0; a < r.length; a++)
+                        if (r[a] !== n[a]) return !1;
+                    return !0
+                }
+                var o = null,
+                    i = null,
+                    a = /Version\/(\S+)\s+Safari/;
+                if (navigator.userAgent) {
+                    var s = navigator.userAgent,
+                        c = s.match(a);
+                    c && s.indexOf("Chrome") === -1 && s.indexOf("Chromium") === -1 && (o = "Safari", i =
+                        c[1])
+                }
+                e.exports = {
+                    agent: o,
+                    version: i,
+                    match: r
+                }
+            }, {}],
+            23: [function (t, e, n) {
+                function r(t, e) {
+                    var n = [],
+                        r = "",
+                        i = 0;
+                    for (r in t) o.call(t, r) && (n[i] = e(r, t[r]), i += 1);
+                    return n
+                }
+                var o = Object.prototype.hasOwnProperty;
+                e.exports = r
+            }, {}],
+            24: [function (t, e, n) {
+                function r(t, e, n) {
+                    e || (e = 0), "undefined" == typeof n && (n = t ? t.length : 0);
+                    for (var r = -1, o = n - e || 0, i = Array(o < 0 ? 0 : o); ++r < o;) i[r] = t[e + r];
+                    return i
+                }
+                e.exports = r
+            }, {}],
+            25: [function (t, e, n) {
+                e.exports = {
+                    exists: "undefined" != typeof window.performance && window.performance.timing &&
+                        "undefined" != typeof window.performance.timing.navigationStart
+                }
+            }, {}],
+            26: [function (t, e, n) {
+                function r(t) {
+                    return !(t && t instanceof Function && t.apply && !t[a])
+                }
+                var o = t("ee"),
+                    i = t(24),
+                    a = "nr@original",
+                    s = Object.prototype.hasOwnProperty,
+                    c = !1;
+                e.exports = function (t, e) {
+                    function n(t, e, n, o) {
+                        function nrWrapper() {
+                            var r, a, s, c;
+                            try {
+                                a = this, r = i(arguments), s = "function" == typeof n ? n(r, a) :
+                                    n || {}
+                            } catch (f) {
+                                p([f, "", [r, a, o], s])
+                            }
+                            u(e + "start", [r, a, o], s);
+                            try {
+                                return c = t.apply(a, r)
+                            } catch (d) {
+                                throw u(e + "err", [r, a, d], s), d
+                            } finally {
+                                u(e + "end", [r, a, c], s)
+                            }
+                        }
+                        return r(t) ? t : (e || (e = ""), nrWrapper[a] = t, d(t, nrWrapper),
+                            nrWrapper)
+                    }
+
+                    function f(t, e, o, i) {
+                        o || (o = "");
+                        var a, s, c, f = "-" === o.charAt(0);
+                        for (c = 0; c < e.length; c++) s = e[c], a = t[s], r(a) || (t[s] = n(a, f ?
+                            s + o : o, i, s))
+                    }
+
+                    function u(n, r, o) {
+                        if (!c || e) {
+                            var i = c;
+                            c = !0;
+                            try {
+                                t.emit(n, r, o, e)
+                            } catch (a) {
+                                p([a, n, r, o])
+                            }
+                            c = i
+                        }
+                    }
+
+                    function d(t, e) {
+                        if (Object.defineProperty && Object.keys) try {
+                            var n = Object.keys(t);
+                            return n.forEach(function (n) {
+                                Object.defineProperty(e, n, {
+                                    get: function () {
+                                        return t[n]
+                                    },
+                                    set: function (e) {
+                                        return t[n] = e, e
+                                    }
+                                })
+                            }), e
+                        } catch (r) {
+                            p([r])
+                        }
+                        for (var o in t) s.call(t, o) && (e[o] = t[o]);
+                        return e
+                    }
+
+                    function p(e) {
+                        try {
+                            t.emit("internal-error", e)
+                        } catch (n) {}
+                    }
+                    return t || (t = o), n.inPlace = f, n.flag = a, n
+                }
+            }, {}],
+            ee: [function (t, e, n) {
+                function r() {}
+
+                function o(t) {
+                    function e(t) {
+                        return t && t instanceof r ? t : t ? c(t, s, i) : i()
+                    }
+
+                    function n(n, r, o, i) {
+                        if (!p.aborted || i) {
+                            t && t(n, r, o);
+                            for (var a = e(o), s = m(n), c = s.length, f = 0; f < c; f++) s[f].apply(a,
+                                r);
+                            var d = u[x[n]];
+                            return d && d.push([g, n, r, a]), a
+                        }
+                    }
+
+                    function l(t, e) {
+                        y[t] = m(t).concat(e)
+                    }
+
+                    function h(t, e) {
+                        var n = y[t];
+                        if (n)
+                            for (var r = 0; r < n.length; r++) n[r] === e && n.splice(r, 1)
+                    }
+
+                    function m(t) {
+                        return y[t] || []
+                    }
+
+                    function v(t) {
+                        return d[t] = d[t] || o(n)
+                    }
+
+                    function w(t, e) {
+                        f(t, function (t, n) {
+                            e = e || "feature", x[n] = e, e in u || (u[e] = [])
+                        })
+                    }
+                    var y = {},
+                        x = {},
+                        g = {
+                            on: l,
+                            addEventListener: l,
+                            removeEventListener: h,
+                            emit: n,
+                            get: v,
+                            listeners: m,
+                            context: e,
+                            buffer: w,
+                            abort: a,
+                            aborted: !1
+                        };
+                    return g
+                }
+
+                function i() {
+                    return new r
+                }
+
+                function a() {
+                    (u.api || u.feature) && (p.aborted = !0, u = p.backlog = {})
+                }
+                var s = "nr@context",
+                    c = t("gos"),
+                    f = t(23),
+                    u = {},
+                    d = {},
+                    p = e.exports = o();
+                p.backlog = u
+            }, {}],
+            gos: [function (t, e, n) {
+                function r(t, e, n) {
+                    if (o.call(t, e)) return t[e];
+                    var r = n();
+                    if (Object.defineProperty && Object.keys) try {
+                        return Object.defineProperty(t, e, {
+                            value: r,
+                            writable: !0,
+                            enumerable: !1
+                        }), r
+                    } catch (i) {}
+                    return t[e] = r, r
+                }
+                var o = Object.prototype.hasOwnProperty;
+                e.exports = r
+            }, {}],
+            handle: [function (t, e, n) {
+                function r(t, e, n, r) {
+                    o.buffer([t], r), o.emit(t, e, n)
+                }
+                var o = t("ee").get("handle");
+                e.exports = r, r.ee = o
+            }, {}],
+            id: [function (t, e, n) {
+                function r(t) {
+                    var e = typeof t;
+                    return !t || "object" !== e && "function" !== e ? -1 : t === window ? 0 : a(t, i,
+                        function () {
+                            return o++
+                        })
+                }
+                var o = 1,
+                    i = "nr@id",
+                    a = t("gos");
+                e.exports = r
+            }, {}],
+            loader: [function (t, e, n) {
+                function r() {
+                    if (!E++) {
+                        var t = b.info = NREUM.info,
+                            e = l.getElementsByTagName("script")[0];
+                        if (setTimeout(u.abort, 3e4), !(t && t.licenseKey && t.applicationID && e))
+                            return u.abort();
+                        f(x, function (e, n) {
+                            t[e] || (t[e] = n)
+                        }), c("mark", ["onload", a() + b.offset], null, "api");
+                        var n = l.createElement("script");
+                        n.src = "https://" + t.agent, e.parentNode.insertBefore(n, e)
+                    }
+                }
+
+                function o() {
+                    "complete" === l.readyState && i()
+                }
+
+                function i() {
+                    c("mark", ["domContent", a() + b.offset], null, "api")
+                }
+
+                function a() {
+                    return R.exists && performance.now ? Math.round(performance.now()) : (s = Math.max(
+                        (new Date).getTime(), s)) - b.offset
+                }
+                var s = (new Date).getTime(),
+                    c = t("handle"),
+                    f = t(23),
+                    u = t("ee"),
+                    d = t(22),
+                    p = window,
+                    l = p.document,
+                    h = "addEventListener",
+                    m = "attachEvent",
+                    v = p.XMLHttpRequest,
+                    w = v && v.prototype;
+                NREUM.o = {
+                    ST: setTimeout,
+                    SI: p.setImmediate,
+                    CT: clearTimeout,
+                    XHR: v,
+                    REQ: p.Request,
+                    EV: p.Event,
+                    PR: p.Promise,
+                    MO: p.MutationObserver
+                };
+                var y = "" + location,
+                    x = {
+                        beacon: "bam.nr-data.net",
+                        errorBeacon: "bam.nr-data.net",
+                        agent: "js-agent.newrelic.com/nr-spa-1130.min.js"
+                    },
+                    g = v && w && w[h] && !/CriOS/.test(navigator.userAgent),
+                    b = e.exports = {
+                        offset: s,
+                        now: a,
+                        origin: y,
+                        features: {},
+                        xhrWrappable: g,
+                        userAgent: d
+                    };
+                t(18), l[h] ? (l[h]("DOMContentLoaded", i, !1), p[h]("load", r, !1)) : (l[m](
+                    "onreadystatechange", o), p[m]("onload", r)), c("mark", ["firstbyte", s], null,
+                    "api");
+                var E = 0,
+                    R = t(25)
+            }, {}]
+        }, {}, ["loader", 2, 16, 5, 3, 4]);;
+        NREUM.info = {
+            beacon: "bam.nr-data.net",
+            errorBeacon: "bam.nr-data.net",
+            licenseKey: "4558326637",
+            applicationID: "388202469",
+            sa: 1
+        }
+    </script>
+    <script type="text/javascript">
+        var variantValue = "";
+        if (window.cmsPageVariant) {
+            variantValue = window.cmsPageVariant;
+        } else {
+            variantValue = "no variant";
+        }
+        newrelic.setCustomAttribute('variant', variantValue);
+    </script>
+    <style data-styled-components=""></style>
+    <style data-styled-components=""></style>
+    <style data-emotion=""></style>
+    <style data-styled="" data-styled-version="4.4.1"></style>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="xid/atl-xid"
+        src="./DACI_team-playbook_files/atl-xid.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ld/ldclient.min"
+        src="./DACI_team-playbook_files/ldclient.min.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ld/ldclient-common.min"
+        src="./DACI_team-playbook_files/ldclient-common.min.js"></script>
+    <style type="text/css">
+        .atlwdg-blanket {
+            background: black;
+            height: 100%;
+            left: 0;
+            opacity: .5;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000000;
+        }
+
+        .atlwdg-popup {
+            background: white;
+            border: 1px solid #ccc;
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            z-index: 10000011;
+            border-radius: 5px;
+            background-clip: padding-box;
+            overflow: hidden;
+            width: 810px;
+            height: 0;
+            max-height: calc(100% - 100px);
+        }
+
+        #atlwdg-frame {
+            height: 100%;
+            width: 100%;
+        }
+
+        .atlwdg-hidden {
+            visibility: hidden;
+        }
+
+        .atlwdg-trigger {
+            position: fixed;
+            background: #205081;
+            padding: 5px;
+            border: 2px solid white;
+            border-top: none;
+            font-weight: bold;
+            color: white !important;
+            display: block;
+            white-space: nowrap;
+            text-decoration: none !important;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            border-radius: 0 0 5px 5px;
+        }
+
+        .atlwdg-trigger.atlwdg-TOP {
+            left: 45%;
+            top: 0;
+        }
+
+        .atlwdg-trigger.atlwdg-RIGHT {
+            left: 100%;
+            top: 40%;
+            -webkit-transform: rotate(90deg);
+            -webkit-transform-origin: top left;
+            -moz-transform: rotate(90deg);
+            -moz-transform-origin: top left;
+            -ms-transform: rotate(90deg);
+            -ms-transform-origin: top left;
+            transform: rotate(90deg);
+            transform-origin: top left;
+        }
+
+        .atlwdg-trigger.atlwdg-SUBTLE {
+            right: 0;
+            bottom: 0;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            border-right: none;
+            background-color: #f5f5f5;
+            color: #444 !important;
+            font-size: 11px;
+            padding: 6px;
+            -webkit-box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.5);
+            box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.5);
+            border-radius: 2px 0 0 0;
+        }
+
+        .atlwdg-loading {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            height: 40px;
+            width: 40px;
+            z-index: 1000001;
+            border-radius: 5px;
+            background-color: #fff;
+            background-image: url('data:image/gif;base64,R0lGODlhEAAQAMQAAP///+7u7t3d3bu7u6qqqpmZmYiIiHd3d2ZmZlVVVURERDMzMyIiIhEREQARAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFBwAQACwAAAAAEAAQAAAFdyAkQgGJJOWoQgIjBM8jkKsoPEzgyMGsCjPDw7ADpkQBxRDmSCRetpRA6Rj4kFBkgLC4IlUGhbNQIwXOYYWCXDufzYPDMaoKGBoKb886OjAKdgZAAgQkfCwzAgsDBAUCgl8jAQkHEAVkAoA1AgczlyIDczUDA2UhACH5BAUHABAALAAAAAAPABAAAAVjICSO0IGIATkqIiMKDaGKC8Q49jPMYsE0hQdrlABCGgvT45FKiRKQhWA0mPKGPAgBcTjsspBCAoH4gl+FmXNEUEBVAYHToJAVZK/XWoQQDAgBZioHaX8igigFKYYQVlkCjiMhACH5BAUHABAALAAAAAAQAA8AAAVgICSOUGGQqIiIChMESyo6CdQGdRqUENESI8FAdFgAFwqDISYwPB4CVSMnEhSej+FogNhtHyfRQFmIol5owmEta/fcKITB6y4choMBmk7yGgSAEAJ8JAVDgQFmKUCCZnwhACH5BAUHABAALAAAAAAQABAAAAViICSOYkGe4hFAiSImAwotB+si6Co2QxvjAYHIgBAqDoWCK2Bq6A40iA4yYMggNZKwGFgVCAQZotFwwJIF4QnxaC9IsZNgLtAJDKbraJCGzPVSIgEDXVNXA0JdgH6ChoCKKCEAIfkEBQcAEAAsAAAAABAADgAABUkgJI7QcZComIjPw6bs2kINLB5uW9Bo0gyQx8LkKgVHiccKVdyRlqjFSAApOKOtR810StVeU9RAmLqOxi0qRG3LptikAVQEh4UAACH5BAUHABAALAAAAAAQABAAAAVxICSO0DCQKBQQonGIh5AGB2sYkMHIqYAIN0EDRxoQZIaC6bAoMRSiwMAwCIwCggRkwRMJWKSAomBVCc5lUiGRUBjO6FSBwWggwijBooDCdiFfIlBRAlYBZQ0PWRANaSkED1oQYHgjDA8nM3kPfCmejiEAIfkEBQcAEAAsAAAAABAAEAAABWAgJI6QIJCoOIhFwabsSbiFAotGMEMKgZoB3cBUQIgURpFgmEI0EqjACYXwiYJBGAGBgGIDWsVicbiNEgSsGbKCIMCwA4IBCRgXt8bDACkvYQF6U1OADg8mDlaACQtwJCEAIfkEBQcAEAAsAAABABAADwAABV4gJEKCOAwiMa4Q2qIDwq4wiriBmItCCREHUsIwCgh2q8MiyEKODK7ZbHCoqqSjWGKI1d2kRp+RAWGyHg+DQUEmKliGx4HBKECIMwG61AgssAQPKA19EAxRKz4QCVIhACH5BAUHABAALAAAAAAQABAAAAVjICSOUBCQqHhCgiAOKyqcLVvEZOC2geGiK5NpQBAZCilgAYFMogo/J0lgqEpHgoO2+GIMUL6p4vFojhQNg8rxWLgYBQJCASkwEKLC17hYFJtRIwwBfRAJDk4ObwsidEkrWkkhACH5BAUHABAALAAAAQAQAA8AAAVcICSOUGAGAqmKpjis6vmuqSrUxQyPhDEEtpUOgmgYETCCcrB4OBWwQsGHEhQatVFhB/mNAojFVsQgBhgKpSHRTRxEhGwhoRg0CCXYAkKHHPZCZRAKUERZMAYGMCEAIfkEBQcAEAAsAAABABAADwAABV0gJI4kFJToGAilwKLCST6PUcrB8A70844CXenwILRkIoYyBRk4BQlHo3FIOQmvAEGBMpYSop/IgPBCFpCqIuEsIESHgkgoJxwQAjSzwb1DClwwgQhgAVVMIgVyKCEAIfkECQcAEAAsAAAAABAAEAAABWQgJI5kSQ6NYK7Dw6xr8hCw+ELC85hCIAq3Am0U6JUKjkHJNzIsFAqDqShQHRhY6bKqgvgGCZOSFDhAUiWCYQwJSxGHKqGAE/5EqIHBjOgyRQELCBB7EAQHfySDhGYQdDWGQyUhADs=');
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        @media print {
+            .atlwdg-trigger {
+                display: none;
+            }
+        }
+    </style>
+    <script src="./DACI_team-playbook_files/atl-global-2.76.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="gasv3/analytics-web-client.with-deps.amd.min"
+        src="./DACI_team-playbook_files/analytics-web-client.with-deps.amd.min.js"></script>
+    <script type="text/javascript" async="" src="./DACI_team-playbook_files/munchkin(1).js"></script>
+    <script async="" crossorigin="anonymous" type="text/javascript" src="./DACI_team-playbook_files/ef81b94c-8498-4f12-b358-eb76a000a247.js"></script>
+    <script src="./DACI_team-playbook_files/f.txt"></script>
+    <script type="text/javascript" src="./DACI_team-playbook_files/ei_track_all_packed.js"></script>
+</head>
+
+<body id="daci" class="wac team-playbook plays daci">
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="column column-md-5 column-md-offset-1">
+                    <div class="component component--heading">
+                        <h1 class="heading"> DACI </h1>
+                    </div>
+                    <div class="component component--horizontal-rule align-left" style="padding-top:25px;">
+                        <hr class="type3"> </div>
+                    <div class="component component--textblock text-oversized">
+                        <p>The DACI framework helps you make group decisions efficiently and effectively. Read on for instructions
+                            (and don't miss the real-life example in step 4!).</p>
+                    </div>
+                    <div class="component component--heading-textblock">
+                        <h5 class="heading"> USE THIS PLAY TO... </h5>
+                        <p>Define roles for making high-impact or high-risk group decisions.</p>
+                    </div>
+                    <div class="component component--textblock">
+                        <p>If&nbsp;you're struggling with&nbsp;
+                            <span>
+                                <a class="modal-link-trigger component__link default" data-target="#modal-588c34db" data-toggle="modal"
+                                    href="https://www.atlassian.com/ko/team-playbook/plays/daci#">decision making</a>&nbsp;
+                                <script type="text/x-component"> { "type":"imkt.wpl.ModalLink", "params": { } } </script>
+                            </span>,&nbsp;
+                            <span>
+                                <a class="modal-link-trigger component__link default" data-target="#modal-02b57c79" data-toggle="modal"
+                                    href="https://www.atlassian.com/ko/team-playbook/plays/daci#">balanced team</a>&nbsp;
+                                <script type="text/x-component"> { "type":"imkt.wpl.ModalLink", "params": { } } </script>
+                            </span>or
+                            <span>
+                                <a class="modal-link-trigger component__link default" data-target="#modal-809df120" data-toggle="modal"
+                                    href="https://www.atlassian.com/ko/team-playbook/plays/daci#"> shared understanding</a>&nbsp;
+                                <script type="text/x-component"> { "type":"imkt.wpl.ModalLink", "params": { } } </script>
+                            </span>on your&nbsp;
+                            <a href="https://www.atlassian.com/ko/team-playbook/health-monitor">Health Monitor</a>, running this play might help.</p>
+                    </div>
+                    <div class="imkt-feature-table-container">
+                        <div class="features-header">
+                            <h1 class="heading"> </h1>
+                        </div>
+                        <div class="feature-container">
+                            <div class="feature-name h3 active">
+                                <span></span>
+                                <span class="toggle">Show less</span>
+                            </div>
+                            <div class="feature-aspects active">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td class="aspect-name-cell hider"></td>
+                                            <td class="hide-aspect-name hider">
+                                                <div class="component component--heading-textblock">
+                                                    <h5 class="heading"> AND I NEED THIS... WHY? </h5>
+                                                    <p>If you've ever found yourself standing at the counter of your favorite
+                                                        sandwich shop tormented by the question of whether to get the Reuben
+                                                        or the turkey, you know this universal truth: decisions are hard.</p>
+                                                    <p>Decisions at work are even harder because the stakes feel higher. Then
+                                                        you add the opinions of teammates, stakeholders, customers, and your
+                                                        boss to the equation... yikes.</p>
+                                                    <p>If we don't approach decisions about our projects with urgency, they
+                                                        stall out because nobody is making the call on things. And if we
+                                                        don't agree on whose call it is, we end up revisiting decisions over
+                                                        and over, which further delay our progress.</p>
+                                                    <p>By clarifying who-plays-what-role in each decision up front, we have
+                                                        a better shot at making the right decisions, and making them at the
+                                                        right time – like choosing the Reuben, which is the right call&nbsp;every&nbsp;time.</p>
+                                                </div>
+                                                <div class="component component--heading-textblock">
+                                                    <h5 class="heading"> WHO SHOULD BE INVOLVED? </h5>
+                                                    <p>Pull in the entire group for this one.&nbsp;</p>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <script type="text/x-component"> { "type":"imkt.components.FeaturesTable", "params": { "showText":"Read more", "hideText":"Show less",
+                            "showAllText":"Show all", "hideAllText":"Hide all", "useExpandAll":false } } </script>
+                    </div>
+                </div>
+                <div class="column column-lg-4 column-md-5 column-sm-8 column-md-offset-0 column-sm-offset-2 md-outerspace-top xs-none text-center vertical-middle">
+                    <div class="component component--video-embed">
+                        <div class="vid-thumb">
+                            <a class="play-trigger" href="https://www.youtube.com/watch?v=68iWkZQ2Zdg">
+                                <img alt="video thumbnail" style="background-image: url(https://wac-cdn.atlassian.com/dam/jcr:366596ff-ec90-4fb5-84fc-1145495e0631/DACIvideostill.png?cdnVersion=1044);"
+                                    class="lozad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAVlpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KTMInWQAAABFJREFUKBVjYBgFoyFAhRAAAAJJAAFEkgypAAAAAElFTkSuQmCC">
+                                <svg class="play-icon" width="70px" height="70px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path d="M16,0 C7.163444,-5.41083001e-16 1.082166e-15,7.163444 0,16 C-1.082166e-15,24.836556 7.163444,32 16,32 C24.836556,32 32,24.836556 32,16 C32,11.7565362 30.3142906,7.68687356 27.3137085,4.6862915 C24.3131264,1.68570945 20.2434638,2.5983722e-16 16,0 Z M11.1288889,22.2222222 L11.1288889,9.77777778 L23.6533333,16 L11.1288889,22.2222222 Z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <script type="text/x-component"> { "type":"imkt.components.VideoEmbedInline", "params": { "videoId":"68iWkZQ2Zdg", "source":"youtube",
+                            "behavior":"modal", "uniqueId":"542be195" } } </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row flex-container">
+                <div class="column column-xs-10 column-xs-offset-1 xs-none">
+                    <div class="column__background n20">
+                        <div class="container-fluid xs-none">
+                            <div class="row flex-container">
+                                <div class="column column-sm-3 play text-center">
+                                    <div class="component component--image-heading-textblock">
+                                        <div class="component__image">
+                                            <img id="info.magnolia.context.HTMLEscapingWebContextWrapper@106c4706" alt="User Team"
+                                                class="lozad component__image" style="width:80px;" src="./DACI_team-playbook_files/People.png"> </div>
+                                        <div class="component__heading-textblock">
+                                            <h5 class="heading"> 인원 </h5>
+                                            <p>4 - 8</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column column-sm-3 play text-center">
+                                    <div class="component component--image-heading-textblock">
+                                        <div class="component__image">
+                                            <img id="info.magnolia.context.HTMLEscapingWebContextWrapper@106c4706" alt="Prep time"
+                                                class="lozad component__image" style="width:80px;" src="./DACI_team-playbook_files/Prep time.png"> </div>
+                                        <div class="component__heading-textblock">
+                                            <h5 class="heading"> 준비 시간 </h5>
+                                            <p>15 분</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column column-sm-3 play text-center">
+                                    <div class="component component--image-heading-textblock">
+                                        <div class="component__image">
+                                            <img id="info.magnolia.context.HTMLEscapingWebContextWrapper@106c4706" alt="Measure Clock"
+                                                class="lozad component__image" style="width:80px;" src="./DACI_team-playbook_files/Time.png"> </div>
+                                        <div class="component__heading-textblock">
+                                            <h5 class="heading"> 진행 시간 </h5>
+                                            <p>다양함</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column column-sm-3 play text-center">
+                                    <div class="component component--image-heading-textblock">
+                                        <div class="component__image">
+                                            <img id="info.magnolia.context.HTMLEscapingWebContextWrapper@106c4706" alt="Difficulty Medium"
+                                                class="lozad component__image" style="width:80px;" src="./DACI_team-playbook_files/Difficulty-medium.png"> </div>
+                                        <div class="component__heading-textblock">
+                                            <h5 class="heading"> 난이도 </h5>
+                                            <p>Moderate</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row flex-container">
+                <div class="column column-md-6 column-md-offset-1">
+                    <div class="component component--heading-textblock text-oversized">
+                        <h2 class="heading"> Running the play </h2>
+                        <p>DACI is all about bringing structure to group decision-making. So review this play thoroughly first
+                            to make sure you understand that structure.</p>
+                    </div>
+                </div>
+                <div class="column column-lg-3 column-md-4 column-lg-offset-1 column-md-offset-0">
+                    <div class="component component--textblock">
+                        <p>
+                            <strong>Materials</strong>
+                        </p>
+                        <p>Laptop</p>
+                        <p>DACI Framework template for&nbsp;
+                            <a href="http://marketplace.atlassian.com/plugins/com.atlassian.confluence.plugins.atlassian-playbook-blueprints/server/overview">Confluence Server</a>&nbsp;or&nbsp;
+                            <a href="http://marketplace.atlassian.com/plugins/atlassian-playbook-daci-decision/cloud/overview">Confluence Cloud</a>
+                        </p>
+                        <p>DACI Framework template
+                            <a href="https://www.atlassian.com/ko/dam/jcr:f6b56375-3d78-496a-857e-ca47e89816ce/DACI-Decision-template.pdf">PDF</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid xs-none-top">
+            <div class="row flex-container">
+                <div class="column column-md-8 column-md-offset-1">
+                    <div class="component component--heading">
+                        <h5 class="h5 heading"> BUT FIRST, THIS </h5>
+                    </div>
+                    <div class="component component--horizontal-rule align-left">
+                        <hr class="type3"> </div>
+                </div>
+                <div class="column column-md-8 column-md-offset-2">
+                    <div class="component component--textblock">
+                        <h5>WHAT DOES "DACI" STAND FOR?</h5>
+                        <ul>
+                            <li>
+                                <strong>D</strong>&nbsp;= Driver. The&nbsp;one&nbsp;person responsible for corralling stakeholders,
+                                collating all the necessary information and&nbsp;getting a decision made by the agreed date.
+                                This may or may not be the project's full-time owner, depending on the decision.</li>
+                            <li>
+                                <strong>A</strong>&nbsp;= Approver. The&nbsp;one&nbsp;person who makes the decision.</li>
+                            <li>
+                                <strong>C</strong>&nbsp;= Contributors.&nbsp;They have knowledge or expertise that may influence
+                                the decision – i.e., they have a&nbsp;voice,&nbsp;but no&nbsp;vote.</li>
+                            <li>
+                                <strong>I</strong>&nbsp;= Informed. They are informed of the final decision.</li>
+                        </ul>
+                        <p>The DACI only works if everyone in the group rallies behind decisions once they're made – even if
+                            they don't agree. Without a willingness to share concerns and trust they'll be considered, your
+                            team will find itself mired in a bog of circular debates and inaction. Team members may even
+                            pursue their preferred option on the sly, in the hopes the official decision is a failure. Make
+                            sure everyone is prepared to fully committed to whatever is decided so you can skip the bullshit
+                            politics.</p>
+                        <h5>"DOES THIS NEED A DACI?"</h5>
+                        <p>It's a question we often find ourselves asking.</p>
+                        <p>As you consider whether a &nbsp;group decision needs the full-on DACI treatment, take the timeliness
+                            and impact into account. Decisions that affect the work of multiple people on the project (e.g.
+                            "Where should we hold our user conference next year?") probably need a DACI. Smaller, isolated
+                            decisions (e.g., "What will the conference's social media hashtag be?") do not.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid md-comfortable-bottom">
+            <div class="row">
+                <div class="column column-md-8 column-md-offset-1">
+                    <div class="component component--heading">
+                        <h5 class="h5 heading"> Step 1 </h5>
+                    </div>
+                    <div class="component component--horizontal-rule align-left">
+                        <hr class="type3"> </div>
+                </div>
+                <div class="column column-md-6 column-md-offset-2">
+                    <div class="component component--heading-textblock">
+                        <h3 class="heading"> Create a page to track your decision (5 min) </h3>
+                        <p>Most projects benefit from documenting what's being considered, relevant research, trade-offs, recommendations,
+                            etc. This makes it easier for the core team to provide feedback on options and helps stakeholders
+                            understand the final decision.</p>
+                        <p>Open up a new page in&nbsp;
+                            <a href="https://www.atlassian.com/ko/software/confluence">Confluence</a>&nbsp;(or your documentation tool-of-choice) and insert a 2x4 grid at the top –
+                            or create the page using the&nbsp;
+                            <a href="http://marketplace.atlassian.com/plugins/atlassian-playbook-daci-decision/cloud/overview">DACI Blueprint</a>&nbsp;for Confluence. Label the rows in the left column as Driver, Approver,
+                            Contributors, Informed. You'll add more to this page in the coming days/weeks as you work through
+                            the decision.</p>
+                        <p>Not a Confluence user? No worries.&nbsp;
+                            <a href="https://www.atlassian.com/ko/dam/jcr:f6b56375-3d78-496a-857e-ca47e89816ce/DACI-Decision-template.pdf">Download the DACI template</a>&nbsp;in PDF format instead.&nbsp;</p>
+                    </div>
+                </div>
+                <div class="column column-lg-3 column-md-4 md-cozy-bottom">
+                    <div class="column__background n20">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image image-left">
+                                <img id="info.magnolia.context.HTMLEscapingWebContextWrapper@106c4706" class="lozad component__image"
+                                    style="width:50px;" src="./DACI_team-playbook_files/Pro tip.png"> </div>
+                            <div class="component__heading-textblock">
+                                <h5 class="heading"> Pro tip </h5>
+                                <p>Creating your DACI page is dead-simple using the&nbsp;
+                                    <a href="https://marketplace.atlassian.com/plugins/atlassian-playbook-daci-decision/cloud/overview">DACI Blueprint</a>&nbsp;for Confluence</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="column column-md-10 column-md-offset-1">
+                    <div class="component component--heading">
+                        <h5 class="h5 heading"> Step 2 </h5>
+                    </div>
+                    <div class="component component--horizontal-rule align-left">
+                        <hr class="type3"> </div>
+                </div>
+                <div class="column column-md-6 column-md-offset-2">
+                    <div class="component component--heading-textblock">
+                        <h3 class="heading"> Define roles for the group decision (10 min) </h3>
+                        <p>
+                            <strong>Who is the driver?</strong>
+                        </p>
+                        <p>Agree on&nbsp;one&nbsp;person per decision. They don't necessarily drive the entire project – just
+                            that decision.</p>
+                        <p>
+                            <strong>Who is the approver?</strong>
+                        </p>
+                        <p>Again,&nbsp;one&nbsp;person per decision.</p>
+                        <p>
+                            <strong>Who are the contributors?</strong>
+                        </p>
+                        <p>This may be multiple people per decision, and may even include someone from outside the core team.
+                            Anyone with relevant knowledge or experience is fair game.</p>
+                        <p>
+                            <strong>Who should be informed?</strong>
+                        </p>
+                        <p>This is anyone directly affected by the decision. Note that this may include people outside the core
+                            team.</p>
+                        <p>Ask questions like "If&nbsp;the driver is away, who would they delegate to?" and "Do we have too
+                            many people who need to be consulted?". Adjust your DACI accordingly.</p>
+                    </div>
+                </div>
+                <div class="column column-lg-3 column-md-4">
+                    <div class="column__background n20">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image image-left">
+                                <img id="info.magnolia.context.HTMLEscapingWebContextWrapper@106c4706" alt="Content search" class="lozad component__image"
+                                    style="width:50px;" src="./DACI_team-playbook_files/Example.png"> </div>
+                            <div class="component__heading-textblock">
+                                <h5 class="heading"> UNCONVINCED? </h5>
+                                <p>If you're not sure DACI is what you need, check out&nbsp;
+                                    <a href="https://www.atlassian.com/blog/inside-atlassian/make-team-decisions-without-killing-momentum">this post</a>&nbsp;from an Atlassian dev team with their favorite tips for making group
+                                    decisions.&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class="component component--link-button">
+                            <a href="https://www.atlassian.com/blog/inside-atlassian/make-team-decisions-without-killing-momentum"
+                                class="component__link button button--one button--regular button--secondary "> Read it </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row flex-container">
+                <div class="column column-md-8 column-md-offset-1">
+                    <div class="component component--heading">
+                        <h5 class="h5 heading"> Step 3 </h5>
+                    </div>
+                    <div class="component component--horizontal-rule align-left">
+                        <hr class="type3"> </div>
+                </div>
+                <div class="column column-md-8 column-md-offset-2">
+                    <div class="component component--heading-textblock">
+                        <h3 class="heading"> Make your plan of attack (15 min) </h3>
+                        <p>Think about all the information you'll need to gather in order to make the decision. If you're not
+                            using the DACI blueprint for Confluence, mark off the following sections on your page. You don't
+                            need to fill them out right now, but feel free to add notes in each one.</p>
+                        <ul>
+                            <li>Due date&nbsp;–&nbsp;the deadline for making the decision.</li>
+                            <li>Background&nbsp;– the reason(s) this decision is required.</li>
+                            <li>Current state&nbsp;– where you're at right now.</li>
+                            <li>Supporting data&nbsp;– the research you've done to inform your decision.</li>
+                            <li>Options considered&nbsp;– a table with a column for each option where you can summarise pros
+                                n' cons, risks, trade-offs, estimated cost or effort, etc.</li>
+                            <li>Recommendations&nbsp;– opinions from your contributors.</li>
+                            <li>FAQs&nbsp;– a place to answer frequently-asked (or anticipated) questions.</li>
+                            <li>References&nbsp;– a list of links out to reference material, along with a brief description of
+                                why it's relevant.</li>
+                            <li>Action items&nbsp;– a list of tasks or follow-ups related to the decision.</li>
+                            <li>Outcome&nbsp;– a place to state which option you ultimately go with.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid md-comfortable-bottom">
+            <div class="row">
+                <div class="column column-md-10 column-md-offset-1">
+                    <div class="component component--heading">
+                        <h5 class="h5 heading"> Step 4 </h5>
+                    </div>
+                    <div class="component component--horizontal-rule align-left">
+                        <hr class="type3"> </div>
+                </div>
+                <div class="column column-md-6 column-md-offset-2">
+                    <div class="component component--heading-textblock">
+                        <h3 class="heading"> Get your team involved </h3>
+                        <p>Send the page around to your team, asking for feedback and input. If you'll need specific people
+                            to help fill in specific sections of the page, now is the time to let them know.</p>
+                        <p>If at some point you feel like things have stalled out or you're going in circles, get the driver
+                            and contributors in a room together. If you're close to making the call, it might be helpful
+                            to include the approver, too. Let people express their concerns, recommendations, ideas for other
+                            options to consider, etc. An hour of hashing it out in person can save you days of comment (or
+                            – horrors! – email) threads, and get your decision back on track.</p>
+                        <p>...then take a deep breath! The DACI play can be a stressful, especially if decisions are contentious
+                            or politically-charged. You just did your team a great service by taking time to lay down a clear
+                            group decision-making framework to work with.</p>
+                    </div>
+                </div>
+                <div class="column column-lg-3 column-md-4">
+                    <div class="column__background n20">
+                        <div class="component component--image-heading-textblock">
+                            <div class="component__image image-left">
+                                <img id="info.magnolia.context.HTMLEscapingWebContextWrapper@106c4706" alt="Content search" class="lozad component__image"
+                                    style="width:50px;" src="./DACI_team-playbook_files/Example.png"> </div>
+                            <div class="component__heading-textblock">
+                                <h5 class="heading"> FOR EXAMPLE... </h5>
+                                <p>Here's the DACI page our Cloud team used when deciding whether to add support for more languages.&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class="component component--modal-link-button">
+                            <a class="modal-link-trigger component__link button button--one button--regular button--secondary"
+                                href="https://www.atlassian.com/ko/team-playbook/plays/daci#" data-toggle="modal" data-target="#modal-9515d6a3">
+                            Show me </a>
+                            <script type="text/x-component"> { "type":"imkt.wpl.ModalLink", "params": { } } </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid lg-comfortable b400 light-text">
+            <div class="row flex-container">
+                <div class="column column-lg-6 column-lg-offset-3 text-center">
+                    <div class="component component--heading-textblock">
+                        <h2 class="heading"> Not ready yet? </h2>
+                        <p>Get the scoop from an Atlassian development team who uses DACI, and other cool techniques, to tackle
+                            their toughest decisions.&nbsp;</p>
+                    </div>
+                    <div class="component component--link-button">
+                        <a href="https://www.atlassian.com/blog/inside-atlassian/make-team-decisions-without-killing-momentum"
+                            class="component__link button button--four button--regular button--primary "> Learn more </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid md-comfortable">
+            <div class="row flex-container reduced-row">
+                <div class="column column-lg-4 column-lg-offset-1">
+                    <div class="component component--heading">
+                        <h3 class="heading"> Variations </h3>
+                    </div>
+                    <div class="component component--heading-textblock">
+                        <h5 class="heading"> SERVICE TEAMS </h5>
+                        <p>In the context of providing services like desktop support or recruiting, a matrix of DACIs helps
+                            front-line service team members understand which calls&nbsp;they can make independently and when
+                            they should involve teammates or a manager.&nbsp;Note that the full decision page described above
+                            isn't needed for each decision in your matrix.&nbsp;A brief description, plus the D, A, Cs, and
+                            Is for each scenario is usually enough.</p>
+                        <p>Create a DACI matrix on a per-service basis (vs. a per-project basis). Think of your deliverable
+                            as a set of escalation paths and procedures for communicating information after those independent
+                            decisions are made.</p>
+                        <p>A service team's DACI matrix is relatively static, but it's not carved in stone. Review and revise
+                            your DACI annually for services that are established and stable. For new service teams, we like
+                            to review the DACI quarterly or twice-yearly during the first year.</p>
+                    </div>
+                </div>
+                <div class="column column-lg-4 column-lg-offset-0">
+                    <div class="component component--heading">
+                        <h3 class="heading"> Follow-ups </h3>
+                    </div>
+                    <div class="component component--heading-textblock">
+                        <h5 class="heading"> DECISION REGISTER </h5>
+                        <p>Optional. Larger initiatives that affect multiple groups or departments (lookin' at you, leadership
+                            teams!) often benefit from a decision register page. It serves as a portal that makes it easy
+                            for team members and stakeholders to access detailed information about each decision.</p>
+                        <p>On your decision register, include a brief summary of the project (such as your&nbsp;
+                            <a href="https://www.atlassian.com/ko/team-playbook/plays/elevator-pitch">elevator pitch</a>). Below that, link off to the page detailing each decision. Also note each
+                            decision's status, level of impact, driver, approver, and due date.&nbsp;You might also include
+                            a legend defining important terms – e.g., what exactly does it mean when a decision is labeled
+                            "high impact".</p>
+                    </div>
+                </div>
+                <div class="column column-lg-3 column-lg-offset-0">
+                    <div class="component component--heading-textblock">
+                        <h5 class="heading"> Related Plays </h5>
+                        <p>&nbsp; &nbsp;&nbsp;
+                            <a href="https://www.atlassian.com/ko/team-playbook/health-monitor/project-teams">Project Kick-off</a>
+                        </p>
+                        <p>&nbsp; &nbsp;&nbsp;
+                            <a href="https://www.atlassian.com/ko/software/confluence/marketing/guide/stakeholder-management">Roles and Responsibilities</a>
+                        </p>
+                        <p>&nbsp; &nbsp;&nbsp;
+                            <a href="https://www.atlassian.com/ko/team-playbook/plays/trade-off-sliders">Trade-off Sliders</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <script async="" type="text/javascript" src="./DACI_team-playbook_files/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin_issuecollector.js"></script>
+        </div>
+    </main>
+    <script type="text/javascript" src="./DACI_team-playbook_files/react-bundle.min.js"></script>
+    <script type="text/javascript" src="./DACI_team-playbook_files/header.min.js"></script>
+    <script type="text/javascript" src="./DACI_team-playbook_files/imkt-vendors.min.js"></script>
+    <script type="text/javascript" src="./DACI_team-playbook_files/wpl-main.min.js"></script>
+    <script type="text/javascript" src="./DACI_team-playbook_files/app.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            var imkt = window.imkt || (window.imkt = {});
+            imkt.isEditMode = false;
+            imkt.isProduction = true;
+            imkt.constants = imkt.constants || {};
+            imkt.constants.rootPath = "/";
+            imkt.constants.assetPath = "https://wac-cdn.atlassian.com" + "/assets/";
+            imkt.constants.libPath = imkt.constants.assetPath + "bower_components/";
+            imkt.constants.cdnVersionQuery = "?cdnVersion=1044";
+            imkt.constants.isDevUser = false;
+            imkt.constants.isFreeEnabled = true;
+            imkt.constants.getUserAccounts = false;
+            imkt.constants.headerLoginMenu = true;
+            imkt.constants.public = true;
+            imkt.constants.mobileBreakpoint = 640;
+        })();
+    </script>
+    <script type="text/x-component"> { "type":"imkt.pages.WACPage", "params": { } } </script>
+    <script type="text/javascript">
+        /** * function to load external js through javascript. * * @param url - javascript url * @param location - location of the dom (e.g. document.head) */
+        var loadExternalJS = function (url, location, callback) {
+            var scriptTag = document.createElement('script');
+            scriptTag.src = url;
+            scriptTag.type = 'text/javascript'; /* Then bind the event to the callback function. There are several events for cross browser compatibility. */
+            scriptTag.onreadystatechange = callback;
+            scriptTag.onload = callback;
+            window.atlGlobalLoadStart = new Date(); /* Fire the loading */
+            location.appendChild(scriptTag);
+        };
+    </script>
+    <script type="text/javascript" class="optanon-category-2">
+        loadExternalJS("https://atl-global.atlassian.com/js/atl-global.min.js", document.body, initializeATLAnalytics);
+    </script>
+    <script src="./DACI_team-playbook_files/atl-global.min.js" type="text/javascript"></script>
+    <!-- LastRendered: 2020. 5. 31 오전 9:15:44 -->
+    <a href="https://www.atlassian.com/ko/team-playbook/plays/daci#" id="atlwdg-trigger" class="atlwdg-trigger atlwdg-RIGHT">Give Feedback</a>
+    <div id="atlwdg-blanket" class="atlwdg-blanket" style="display: none;"></div>
+    <iframe height="0" width="0" style="display: none; visibility: hidden;" src="./DACI_team-playbook_files/activityi.html"></iframe>
+    <div id="atlwdg-container" class="atlwdg-popup atlwdg-hidden"></div>
+    <script type="text/javascript" id="" src="./DACI_team-playbook_files/f(1).txt"></script>
+    <script type="text/javascript" id="" src="./DACI_team-playbook_files/oct.js"></script>
+    <script type="text/javascript" src="./DACI_team-playbook_files/ef81b94c-8498-4f12-b358-eb76a000a247(1).js"></script>
+    <div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.22086824045518316">
+        <img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon0.8308879713458854" width="0" height="0"
+            alt="" src="./DACI_team-playbook_files/0">
+    </div>
+    <img style="display:none" alt="" aria-hidden="true" id="db_bw_pixel_ad" src="./DACI_team-playbook_files/demandbase">
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/975152762/?value=0&amp;guid=ON&amp;script=0">
+        </div>
+    </noscript>
+    <script async="" type="text/javascript" crossorigin="anonymous" src="./DACI_team-playbook_files/monitor-latest.js"></script>
+    <script type="text/javascript" crossorigin="anonymous" async="" src="./DACI_team-playbook_files/ef81b94c-8498-4f12-b358-eb76a000a247(2).js"></script>
+    <div id="ClickTaleDiv" style="display: none;">
+        <script async="" crossorigin="anonymous" src="./DACI_team-playbook_files/WR1032b.js"></script>
+    </div>
+    <script crossorigin="anonymous" type="text/javascript" async="" src="./DACI_team-playbook_files/WR-latest.js"></script>
+    </noscript>
+    <script src="./DACI_team-playbook_files/ChangeMonitor-latest.js"></script>
+</body>
+
+</html>
