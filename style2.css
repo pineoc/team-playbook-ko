@@ -1,0 +1,107 @@
+@media only screen and (min-width: 1024px) {
+  .team-playbook .overlay .close {
+    left: 100% !important;
+  }
+}
+
+.column__background.n20 {
+  border-radius: 15px;
+}
+
+.flex-container .column__background {
+  border-radius: 15px;
+}
+
+.component__link {
+  margin-bottom: auto;
+}
+
+#ptd {
+  max-width: 100%;
+  width: 800px;
+  margin: auto;
+  border-radius: 25px;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+}
+
+.modal-link-trigger {
+  color: grey;
+}
+
+.n20 {
+  padding: 25px;
+}
+
+.difficulty-image .component__image {
+  margin-bottom: 12px;
+  padding-top: 8px;
+}
+
+.hr-heading {
+  padding-top: 25px;
+}
+
+.flex-container .column__background {
+  border-radius: 15px;
+}
+
+.imkt-feature-table-container .feature-container {
+  border-bottom: 0px;
+}
+
+.component__link {
+  margin-bottom: auto;
+}
+
+#people img.component__image {
+  padding-top: 20px;
+}
+
+#difficulty img.component__image {
+  padding-top: 25px;
+  margin-bottom: 23px;
+}
+
+.modal-link-trigger {
+  color: grey;
+}
+
+.n20 {
+  padding: 25px;
+}
+
+/* -------- style the drop down ---------- */
+
+.imkt-feature-table-container .feature-name {
+  font-size: 1rem;
+}
+
+.imkt-feature-table-container .feature-aspects td:first-of-type {
+  display: none;
+}
+
+.imkt-feature-table-container .feature-name .toggle {
+  margin-left: 0px;
+}
+
+/* -------- end style ---------- */
+
+/* -------- style the in-line modals ---------- */
+
+.modal-link-trigger .component__link default {
+}
+
+/* -------- style modals ---------- */
+
+.modal.dialog .modal-header {
+  padding-bottom: 36px;
+  margin-bottom: -16px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.modal.dialog.h60 .modal-content {
+  border-radius: 10px 10px 10px 10px;
+}
+
+/* ----- end style ------*/
